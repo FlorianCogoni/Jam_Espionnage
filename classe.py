@@ -8,8 +8,7 @@ class Personnage:
         """map est une matrice np"""
         if dir==0:
             if self.positionX!=0:
-                if map[self.positionX][self.positionY]==
-                map[self.positionX-1][self.positionY]==0:
+                if map[self.positionX-1][self.positionY]==0:
                     map[self.positionX][self.positionY]=0
                     map[self.positionX-1][self.positionY]=4
         elif:
